@@ -1,0 +1,4 @@
+<div class="repo" ng-repeat="repo in repos | filter:{fork:false}">
+	<span class="repo-name"><a ng-href="{{repo.html_url}}">{{ repo.name }}</a></span>
+	<span class="repo-description muted">{{ repo.description }}</span>
+</div>

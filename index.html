@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>error418's Github Page</title>
+		<title>error418's GitHub Page</title>
 		
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
@@ -11,24 +11,30 @@
 		<script src="https://code.jquery.com/jquery-2.1.1.min.js" integrity="sha384-fj9YEHKNa/e0CNquG4NcocjoyMATYo1k2Ff5wGB42C/9AwOlJjDoySPtNJalccfI" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 		
-	</head>
+		<script src="js/lib/angular.min.js"></script>
+		<script src="js/lib/angular-resource.min.js"></script>
+		<script src="js/lib/angular-route.min.js"></script>
 
-	<body>
-		<div class="container-fluid">
+		<script src="js/main.js"></script>
+		<script src="js/repositories.dir.js"></script>
+	</head>
+	
+	<body ng-app="main">
+		<div class="container-fluid" ng-controller="MainController">
 			<div class="hidden-sm hidden-xs content-spacer"></div>
-			
+	
 			<div class="col-xs-12 col-md-offset-1 col-md-11 header">I'm a teapot</div>
-			
+	
 			<div class="col-xs-12 col-md-offset-1 col-md-6 content">
-				<p></p>
+				<p>Hello and welcome to a (yet) pretty empty personal GitHub page
 				<p>
-					Hello and welcome to a (yet) pretty empty GitHub page
-				<p>
-					
 				<p>
 					If you are looking for some content feel free to take a look into my <a href="https://github.com/error418">GitHub Repositories</a>.
 				</p>
-			</div>		
+				
+				<github-repos repos="repos"></github-repos>
+				
+			</div>
 		</div>
 	</body>
 </html>

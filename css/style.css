@@ -30,6 +30,21 @@ body {
 	background-color: rgba(255,255,255,0.7);
 	border-radius: 5px;
 	font-family: 'Hind', sans-serif;
+	
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.repo {
+}
+
+.repo .repo-name {
+	
+}
+
+.repo .repo-description {
+	opacity: 0.8;
+	font-size: 0.8em;
 }
 
 @keyframes bg-in {
