@@ -8,6 +8,11 @@ body {
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
+    
+    animation: fade-in .75s both;
+    -webkit-animation: fade-in .75s both;
+    -moz-animation: fade-in .75s both;
+    -o-animation: fade-in .75s both;
 }
 
 .header {
@@ -25,4 +30,13 @@ body {
 	background-color: rgba(255,255,255,0.7);
 	border-radius: 5px;
 	font-family: 'Hind', sans-serif;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
 }
