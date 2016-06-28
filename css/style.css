@@ -3,16 +3,17 @@ body {
 	background-position: center center;
 	background-attachment: fixed;
 	background-color: #76622f !important;
+	background-image: url('../media/background-preload.jpg');
 
 	background-size: cover;
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
     
-	animation: bg-in .75s ease-in 2s 1 normal;
-	-webkit-animation: bg-in .75s ease-in 2s 1 normal;
-	-moz-animation: bg-in .75s ease-in 2s 1 normal;
-	-o-animation: bg-in .75s ease-in 2s 1 normal;
+	animation: bg-in .75s ease-in 0s 1 normal;
+	-webkit-animation: bg-in .75s ease-in 0s 1 normal;
+	-moz-animation: bg-in .75s ease-in 0s 1 normal;
+	-o-animation: bg-in .75s ease-in 0s 1 normal;
 	
 	min-height: 100vh;
 }
@@ -52,13 +53,13 @@ body {
 @keyframes bg-in {
   0% {
   	background-image: url('../media/background-preload.jpg');
-    opacity:0;
+	opacity:0;
   }
   50% {
-    opacity:0.5;
+	opacity:0.5;
   }
   100% {	
   	background-image: url('../media/background.jpg');
-    opacity:1;
+	opacity:1;
   }
 }
