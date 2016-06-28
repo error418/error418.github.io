@@ -9,10 +9,10 @@ body {
 	-webkit-background-size: cover;
 	-o-background-size: cover;
     
-	animation: bg-in .75s both;
-	-webkit-animation: bg-in .75s both;
-	-moz-animation: bg-in .75s both;
-	-o-animation: bg-in .75s both;
+	animation: bg-in .75s ease-in 2s 1 normal;
+	-webkit-animation: bg-in .75s ease-in 2s 1 normal;
+	-moz-animation: bg-in .75s ease-in 2s 1 normal;
+	-o-animation: bg-in .75s ease-in 2s 1 normal;
 	
 	min-height: 100vh;
 }
