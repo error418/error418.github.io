@@ -15,6 +15,11 @@ body {
 	-moz-animation: bg-in .75s ease-in 0s 1 normal;
 	-o-animation: bg-in .75s ease-in 0s 1 normal;
 	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	
 	min-height: 100vh;
 }
 
