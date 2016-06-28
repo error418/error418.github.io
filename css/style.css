@@ -3,7 +3,7 @@ body {
 	background-position: center center;
 	background-attachment: fixed;
 	background-color: #76622f !important;
-	background-image: url('../media/background-preload.jpg');
+	background-image: url('../media/background.jpg');
 
 	background-size: cover;
 	-moz-background-size: cover;
@@ -57,14 +57,9 @@ body {
 
 @keyframes bg-in {
   0% {
-  	background-image: url('../media/background-preload.jpg');
 	opacity:0;
   }
-  50% {
-	opacity:0.5;
-  }
   100% {	
-  	background-image: url('../media/background.jpg');
 	opacity:1;
   }
 }
