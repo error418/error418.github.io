@@ -15,6 +15,7 @@
 		
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 		
 		<link href="https://fonts.googleapis.com/css?family=Bungee|Hind" rel="stylesheet">
 		
@@ -36,14 +37,29 @@
 			<div class="col-xs-12 col-md-offset-1 col-md-11 header">I'm a teapot</div>
 	
 			<div class="col-xs-12 col-md-offset-1 col-md-6 content">
-				<p>Hello and welcome to a (yet) pretty empty personal GitHub page
-				<p>
-				<p>
-					If you are looking for some content feel free to take a look into my <a href="https://github.com/error418">GitHub Repositories</a>.
-				</p>
+				<p>Hello and welcome to a (yet) pretty empty personal GitHub page</p>
+
+				<p>You'll find the real content inside the repositores and the contributions on <a href="https://github.com/error418">GitHub</a></p>
 				
 				<github-repos user="error418"></github-repos>
+
+				<hr />
+
+				<p>
+					Donations are welcome (of course) <i class="fa fa-smile-o"></i>
+				</p>
+
+				<div class="input-group">
+					<span class="input-group-addon" title="IOTA"><img src="media/IOTA.svg" width="20" height="20" /></span>
+					<input id="iota-address" type="text" class="form-control" value="IJQUHNFIQMFRZZKTDYULVXPMBDJHNQZCMTZRGLHJNMJJKYIIPSLJKBGUGQ9ZVW9QZTWOPSW9SKBPMODSXOFRFKNKQW" readonly>
+					<script>
+						$("#iota-address").click(function () {
+							$(this).select();
+						});
+					</script>
+				</div>
 			</div>
+
 		</div>
 		
 		<div class="asterisk hidden-sm hidden-xs">
