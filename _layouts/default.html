@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{ site.title }}</title>
+		<meta name="theme-color" content="#76622f" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<script src="{{ '/js/lib/pace.min.js' | relative_url }}"></script>
+		<link href="{{ 'css/simple-pace.css' | relative_url }}" rel="stylesheet" />
+		
+		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="128x128" href="/media/touch-icon-128.png" />
+		<link rel="apple-touch-icon" sizes="256x256" href="/media/touch-icon-256.png" />
+		
+		<link rel="stylesheet" href="{{ 'css/style.css' | relative_url }}" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+		
+		<link href="https://fonts.googleapis.com/css?family=Bungee|Hind" rel="stylesheet">
+		
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js" integrity="sha384-fj9YEHKNa/e0CNquG4NcocjoyMATYo1k2Ff5wGB42C/9AwOlJjDoySPtNJalccfI" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        
+        <link href="{{ 'css/post.css' | relative_url }}" rel="stylesheet" />
+
+		<script src="/js/lib/angular.min.js"></script>
+		<script src="/js/lib/angular-resource.min.js"></script>
+
+		<script src="{{ 'js/lib/gh-repos.js' | relative_url }}"></script>
+		<script src="{{ 'js/main.js' | relative_url }}"></script>
+	</head>
+	
+	<body ng-app="main">
+		<div class="container-fluid" ng-controller="MainController">
+			<div class="hidden-sm hidden-xs content-spacer"></div>
+	
+			<div class="col-xs-12 col-md-offset-1 col-md-11 header">
+                I'm a teapot
+            </div>
+	
+			<div class="col-xs-12 col-md-offset-1 col-md-6 content">
+				{{content}}
+			</div>
+
+			<div class="col-xs-12 col-md-offset-1 col-md-6" style="min-height:20px"></div>
+
+		</div>
+		
+        {% include footer.html %}
+	</body>
+</html>
