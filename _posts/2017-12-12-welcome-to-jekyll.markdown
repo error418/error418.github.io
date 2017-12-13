@@ -7,7 +7,7 @@ categories: blog
 This is my fist post! :)
 
 
-{% highlight javascript %}
+{% highlight JavaScript %}
 console.log("Hello world!")
 {% endhighlight %}
 

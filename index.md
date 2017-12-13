@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: partial-width
 ---
 
 Hello and welcome to a (yet) pretty empty personal GitHub page.
