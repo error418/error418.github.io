@@ -1,13 +1,10 @@
 ---
 layout: post
-title:  "This is the first post!"
+title:  "The first post"
 date:   2017-12-12 17:55:47 +0100
 categories: blog
 ---
-This is my fist post! :)
 
+You're lookin' at it :)
 
-{% highlight JavaScript %}
-console.log("Hello world!")
-{% endhighlight %}
 
