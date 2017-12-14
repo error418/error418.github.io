@@ -4,8 +4,17 @@
 
 .posts {
     .post {
+
+        &:not(:last-child) {
+            border-bottom: 1px dashed #DDD;
+        }
+
         h1 {
             font-size: 1.5em
+        }
+
+        .more {
+            margin-bottom: 2px;
         }
     }
 }
