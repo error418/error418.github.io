@@ -11,14 +11,4 @@ find the real content inside the repositores and the contributions on <a href="h
 
 ---
 
-Please consider donating, if you like/use some of my work. Cheers! <i class="fa fa-smile-o"></i>
-
-<div class="input-group">
-    <span class="input-group-addon" title="IOTA"><img src="media/IOTA.svg" width="20" height="20" /></span>
-    <input id="iota-address" type="text" class="form-control" value="IJQUHNFIQMFRZZKTDYULVXPMBDJHNQZCMTZRGLHJNMJJKYIIPSLJKBGUGQ9ZVW9QZTWOPSW9SKBPMODSXOFRFKNKQW" readonly>
-    <script>
-        $("#iota-address").click(function () {
-            $(this).select();
-        });
-    </script>
-</div>
+Please consider <a href="{{ 'support.html' | relative_url }}">donating</a>, if you like/use some of my work. Cheers! <i class="fa fa-smile-o"></i>
