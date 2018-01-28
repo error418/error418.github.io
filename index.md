@@ -11,4 +11,4 @@ find the real content inside the repositores and the contributions on <a href="h
 
 ---
 
-Please consider <a href="{{ 'support.html' | relative_url }}">donating</a>, if you like/use some of my work. Cheers! <i class="fa fa-smile-o"></i>
+Please consider <a href="{{ 'support.html' | relative_url }}">donating</a>, if you find this useful. Cheers! <i class="fa fa-smile-o"></i>
