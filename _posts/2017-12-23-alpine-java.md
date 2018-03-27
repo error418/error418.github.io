@@ -3,6 +3,7 @@ layout: post
 title:  "Alpine and Oracle Java"
 date:   2017-12-23 22:04:00 +0100
 categories: docker
+author: error418
 ---
 
 So, finally we got an Alpine Repository running. *"Let's build a Java image on top of that, like, right now!"*, I greenly said to my colleague, not knowing, that it will not be that easy.
