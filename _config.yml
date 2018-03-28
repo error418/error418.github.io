@@ -199,3 +199,8 @@ protocols:
     fb_image_type: "image/png"
 
     twitter_image: "/assets/logo.png"
+
+projects:
+  - name: tirolesa
+    description: 
+    image: 
