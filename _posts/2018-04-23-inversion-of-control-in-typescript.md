@@ -31,7 +31,7 @@ class GithubWebhook {
 }
 ```
 
-Everything needs to be strapped together using an inversify container:
+Everything needs to be strapped together using an inversify container, which takes care of the dependency injections and class instantiation:
 
 ```typescript
 import "reflect-metadata";
@@ -52,5 +52,12 @@ container.bind<GithubWebhook>(GithubWebhook).toSelf().inSingletonScope();
 export default container;
 ```
 
+Keep in mind that classes only get instantiated when they are a dependency of an other class. You can manually require them by using this:
+
+```typescript
+container.get<CommitStatusSender>(CommitStatusSender);
+```
+
+Inversify has some very good examples, if you want to get into the details.
 
 [inversify]: http://inversify.io/
