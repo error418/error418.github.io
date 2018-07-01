@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "SonarQube Branch analysis with GitHub Pull Requests"
+title:  "Using SonarQube branch analysis with GitHub PRs"
 date:   2018-06-30 22:04:00 +0100
 categories: code
 author: error418
