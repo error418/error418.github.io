@@ -11,3 +11,36 @@
   "neat/neat",
   "layout"
 ;
+
+
+.logo-divider {
+  display: block;
+  position: relative;
+  height: 2em;
+
+  .divider {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #ddd;
+    width: 100%;
+    height: 100%;
+  }
+
+  .divider-image {
+    position: relative;
+    top: -50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    width: 4em;
+    height: 2em;
+
+    img {
+      width: auto;
+      height: 100%;
+    }
+  }
+}

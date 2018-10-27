@@ -4,9 +4,29 @@ title: "Projects"
 permalink: /projects/
 ---
 
+
 {% for project in site.projects %}
-  <h1>{{ project.name }}</h1>
-  {{ project.description }}
-  {% if forloop.last == false %}<hr>{% endif %}
+  <div class="project">
+    <span class="logo-divider">
+      
+      <span class="divider">
+        <span class="divider-image">
+          <img src="{{ project.image }}">
+        </span>
+      </span>
+    </span>
+    <h3>{{ project.name }}</h3>
+    <p>{{ project.description }}</p>
+    {% if project.github %}
+    <div>
+      <a href="https://github.com/{{ project.github }}">GitHub Repository</a>
+    </div>
+    {% endif %}
+    {% if project.url %}
+    <div>
+      <a href="{{ project.url }}">GitHub Page</a>
+    </div>
+  {% endif %}
+  </div>
+  {% if forloop.last == false %}{% endif %}
 {% endfor %}
-<br>
