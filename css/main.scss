@@ -12,6 +12,28 @@
   "layout"
 ;
 
+.btn {
+  display: inline-block;
+  border-radius: 2px;
+  border: 1px $action-color solid;
+  padding: 2px 7px;
+
+  &:hover {
+    text-decoration: none;
+    color: $white;
+    background-color: $action-color;
+  }
+  
+  &.btn-sm {
+    font-size: 0.75em;
+  }
+}
+
+.project {
+  .links {
+    text-align: right;
+  }
+}
 
 .logo-divider {
   display: block;

@@ -207,3 +207,7 @@ projects:
     image: /assets/projects/swingletree.svg
     url: https://error418.github.io/swingletree
     github: error418/swingletree
+  - name: futuro
+    description: >
+      Generate and print your personal annual wall calendar
+    github: error418/futuro

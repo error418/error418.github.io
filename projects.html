@@ -2,11 +2,12 @@
 layout: page
 title: "Projects"
 permalink: /projects/
+main_nav: true
 ---
-
 
 {% for project in site.projects %}
   <div class="project">
+    {% if project.image %}
     <span class="logo-divider">
       
       <span class="divider">
@@ -15,18 +16,18 @@ permalink: /projects/
         </span>
       </span>
     </span>
+    {% else %}
+    <hr>
+    {% endif %}
     <h3>{{ project.name }}</h3>
     <p>{{ project.description }}</p>
-    {% if project.github %}
-    <div>
-      <a href="https://github.com/{{ project.github }}">GitHub Repository</a>
+    <div class="links">
+      {% if project.url %}
+      <a class="btn btn-sm btn-outline-primary" href="{{ project.url }}"><i class="fa fa-fw fa-external-link"></i> GitHub Page</a>
+      {% endif %}
+      {% if project.github %}
+      <a class="btn btn-sm btn-outline-primary" href="https://github.com/{{ project.github }}"><i class="fa fa-fw fa-github"></i> GitHub Repository</a>
+      {% endif %}
     </div>
-    {% endif %}
-    {% if project.url %}
-    <div>
-      <a href="{{ project.url }}">GitHub Page</a>
-    </div>
-  {% endif %}
   </div>
-  {% if forloop.last == false %}{% endif %}
 {% endfor %}
