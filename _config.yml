@@ -203,10 +203,10 @@ protocols:
 projects:
   - name: swingletree
     description: >
-      Swingletree gives you the possibility to block pull requests on failing quality gates performed by the SonarQube Branch Plugin. 
+      Integrate and observe the results of your CI/CD pipeline tools
     image: /assets/projects/swingletree.svg
-    url: https://error418.github.io/swingletree
-    github: error418/swingletree
+    url: https://swingletree-oss.github.io/swingletree
+    github: swingletree-oss/swingletree
   - name: futuro
     description: >
       Generate and print your personal annual wall calendar
