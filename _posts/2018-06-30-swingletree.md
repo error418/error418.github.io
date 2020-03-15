@@ -26,4 +26,4 @@ Keep in mind you will need a license for the [SonarQube Developer Edition][sonar
 
 [github-apps]: https://developer.github.com/apps/differences-between-apps/
 
-[swingletree]: https://github.com/error-418/swingletree
+[swingletree]: https://github.com/swingletree-oss/swingletree
