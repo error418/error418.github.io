@@ -3,7 +3,7 @@ layout: post
 title:  "Alpine and Oracle Java"
 date:   2017-12-23 22:04:00 +0100
 categories: docker
-author: error418
+author: Michael Gerbig
 cover:  "/assets/header-code.jpg"
 ---
 
